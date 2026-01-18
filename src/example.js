@@ -1,10 +1,7 @@
-// Example file with intentional linting errors
-const unusedVariable = "This uses double quotes";
-
-function badFunction() {
-  let unused = "unused variable";
-  console.log("Another double quote string");
-  return "no semicolon"
+// Fixed example file (linting errors resolved)
+function goodFunction() {
+  console.log('This uses single quotes');
+  return 'has semicolon';
 }
 
-badFunction();
+goodFunction();
